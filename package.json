@@ -1,0 +1,11 @@
+{
+  "name": "gestor-campeonatos",
+  "private": true,
+  "description": "Gestor de campeonatos esportivos — projeto de Programação Orientada a Objetos",
+  "scripts": {
+    "instalar": "npm --prefix backend install && npm --prefix frontend install",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "test": "npm --prefix backend test"
+  }
+}
